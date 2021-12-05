@@ -1,0 +1,14 @@
+/* @import "./node_modules/open-props/dist/open-props.min.css"; */
+@import "./node_modules/open-props/open-props.min.css";
+
+.grape-5-test {
+  color: var(--grape-5);
+}
+
+.slide-fade {
+  animation:
+    var(--animation-fade-out) forwards,
+    var(--animation-slide-out-down);
+  animation-timing-function: var(--ease-squish-3);
+  animation-duration: 1s;
+}
